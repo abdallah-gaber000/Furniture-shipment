@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /* position: static; */
+}
+
+header {
+  border: 1px solid black;
+  color: white;
+  height: 100vh;
+  background-image: url(imges/mt-1354-home-header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-position: right; */
+}
+
+.header-text {
+  width: 700px;
+  border: 1px solid white;
+  margin-top: 70px;
+  margin-left: 40px;
+  /* border: 1px solid green; */
+}
+
+.header-text p {
+  font-size: 30px;
+}
+
+.header-text h1 {
+  font-size: 70px;
+}
+
+hr {
+  margin-top: 20px;
+  width: 20%;
+}
+
+.first {
+  margin-top: 50px;
+  height: 70vh;
+  /* border: 1px solid red; */
+}
+
+.first h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.first-one {
+  /* border: 1px solid green; */
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-first {
+  width: 40%;
+  margin-top: 4%;
+}
+
+.first-one img {
+  border-radius: 10px;
+  width: 30%;
+  /* margin-left: 5%; */
+}
+
+.second {
+  /* height: 45vh; */
+  margin-top: 50px;
+  background-color: #1b1a1a;
+  background-image: url(imges/mt-1354-home-arrows4_1.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-blend-mode: color-dodge;
+}
+
+.second h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  padding-top: 50px;
+}
+
+.flex-second {
+  /* border: 1px solid green; */
+  /* height: 25vh; */
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.flexone {
+  width: 25%;
+}
+
+.flexone h2 {
+  /* margin-left: 35%; */
+  margin-top: 5px;
+  color: white;
+}
+
+.flexone p {
+  color: grey;
+}
+
+.third {
+  /* border: 1px solid red; */
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.third h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.flex1 {
+  margin-top: 50px;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex1 img {
+  width: 100%;
+  height: 50vh;
+  width: 25%;
+  border-radius: 10px;
+}
+
+.flex2 {
+  margin-top: 50px;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex2 img {
+  height: 50vh;
+  width: 25%;
+  border-radius: 10px;
+}
+
+.forth {
+  background-color: #1b1a1a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(imges/mt-1354-home-arrows4_1.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-blend-mode: color-dodge;
+}
+
+.forth h1 {
+  text-align: center;
+  font-size: 46px;
+  font-style: bold;
+  color: white;
+  padding-top: 10vh;
+}
+
+.horizental {
+  max-width: 55%;
+  text-align: -webkit-right;
+}
+
+hr {
+  box-sizing: content-box;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #ffb712;
+}
+
+.forth .row {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 8vh;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.forth p {
+  color: #989696;
+}
+
+.forth .phone p {
+  padding-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.forth .phone p:hover {
+  color: #ffb712;
+  cursor: pointer;
+}
+
+.forth a {
+  text-decoration: none;
+  color: #989696;
+  transition: all 0.3s ease-in-out;
+}
+
+.forth a:hover {
+  color: #ffb712;
+}
+
+footer {
+  background-color: #1b1a1a;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+footer span {
+  display: block;
+  color: #989696;
+}
+
+footer p {
+  color: #989696;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #989696;
+  transition: all 0.3s ease-in-out;
+}
+
+footer p a:hover {
+  color: #ffb712;
+}
+@media (max-width: 768px) {
+  .header-text {
+    width: 70%;
+  }
+  .header-text h1 {
+    font-size: 50px;
+  }
+  .header-text p {
+    font-size: 40px;
+  }
+}
+@media (max-width: 650px) {
+  .header-text h1 {
+    font-size: 40px;
+  }
+  .header-text p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .first-one {
+    flex-direction: column;
+  }
+  .first-one img {
+    margin: auto;
+  }
+  .text-first {
+    margin: auto;
+  }
+  .flex-second {
+    flex-direction: column;
+  }
+  .flex-second img {
+    margin-left: 190px;
+  }
+  .flex-second h2 {
+    width: 110px;
+    margin-left: 160px;
+  }
+  .flex-second p {
+    width: 90px;
+    margin-left: 170px;
+  }
+  .flex1 {
+    flex-direction: column;
+    height: 70vh;
+  }
+  .flex1 img {
+    margin: auto;
+  }
+  .forth .row {
+    flex-direction: column;
+  }
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+  }
+}
