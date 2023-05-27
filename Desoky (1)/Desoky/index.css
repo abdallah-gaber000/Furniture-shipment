@@ -272,8 +272,26 @@ footer p a:hover {
   .header-text p {
     font-size: 30px;
   }
+  footer .row {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+  footer .logo {
+    margin-bottom: 20px;
+  }
+  footer .logo img {
+    width: 55%;
+  }
+  footer .links {
+    margin-top: 20px;
+  }
 }
-@media (max-width: 425px) {
+@media (max-width: 440px) {
+  .nav .logo {
+    width: 70%;
+    margin: auto;
+  }
   .nav {
     flex-direction: column;
     text-align: center;
@@ -307,7 +325,7 @@ footer p a:hover {
     flex-direction: column;
     height: 100vh;
   }
-  .third{
+  .third {
     margin: 10px;
     margin-bottom: 100px;
   }
@@ -329,5 +347,65 @@ footer p a:hover {
   }
   footer .links {
     margin-top: 20px;
+  }
+}
+@media (max-width: 407px) {
+  .first-one img {
+    width: 150px;
+    /* height: 200px; */
+  }
+  .text-first {
+    width: 200px;
+  }
+  .flex-second img {
+    margin-left: 170px;
+  }
+  .flex-second h2 {
+    width: 121px;
+    margin-left: 140px;
+  }
+  .flex-second p {
+    width: 146px;
+    margin-left: 125px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 370px) {
+  .header-text {
+    margin-top: 1px;
+    width: 230px;
+  }
+  .flex-second img {
+    margin-left: 150px;
+  }
+  .flex-second h2 {
+    width: 121px;
+    margin-left: 125px;
+  }
+  .flex-second p {
+    width: 146px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 340px) {
+  .header-text {
+    margin-top: 1px;
+    width: 230px;
+  }
+  .text-first {
+    width: 180px;
+  }
+  .flex-second img {
+    margin-left: 140px;
+  }
+  .flex-second h2 {
+    width: 121px;
+    margin-left: 115px;
+  }
+  .flex-second p {
+    width: 146px;
+    margin-left: 100px;
+    margin-bottom: 20px;
   }
 }
