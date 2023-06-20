@@ -9,8 +9,8 @@
   /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   background-color: white;
   /* position: static; */
 }
@@ -19,7 +19,7 @@ header {
   border: 1px solid black;
   color: white;
   height: 100vh;
-  background-image: url(imges/mt-1354-home-header-bg.jpg);
+  background-image: url(imges/header\ img.jpeg);
   background-size: cover;
   background-position: center;
   /* background-position: right; */
